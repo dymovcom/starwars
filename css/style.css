@@ -222,15 +222,15 @@ body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 870px) {
   body {
     background: #070506 url(../img/main-bg1.jpg) top right 80% no-repeat;
     background-size: contain;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   body {
     background: #070506 url(../img/main-bg1.jpg) top right 80% no-repeat;
     background-size: contain;

@@ -5,9 +5,9 @@
 }
 
 body {
-  background: #070506 url(../img/main-bg.jpg) top right -100% no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
+  background: #070506 url(../img/main-bg1.jpg) top right no-repeat;
+  /* background-size: contain; */
+  /* background-attachment: fixed; */
   color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
@@ -206,10 +206,35 @@ body {
   display: none;
 }
 
-@media (max-width: 640px) {
-  .body {
-  
+@media (max-width: 1200px) {
+  body {
+    background: #070506 url(../img/main-bg1.jpg) top right 50% no-repeat;
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    background: #070506 url(../img/main-bg1.jpg) top right 70% no-repeat;
+    /* background-size: contain; */
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background: #070506 url(../img/main-bg1.jpg) top right 80% no-repeat;
     background-size: contain;
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background: #070506 url(../img/main-bg1.jpg) top right 80% no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
   }
   .hero__subtitle {
     font-size: 24px;

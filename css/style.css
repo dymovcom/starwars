@@ -259,3 +259,11 @@ body {
     margin-bottom: 10px;
   }
 }
+
+@media (max-height: 400px) {
+  body {
+    background: #070506 url(../img/main-bg1.jpg) top right no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+  }
+}
